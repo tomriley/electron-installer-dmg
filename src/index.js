@@ -106,6 +106,24 @@ module.exports = async (immutableOpts) => {
       y: 250,
       type: 'position',
       name: '.background',
+    },
+    {
+      x: 1000,
+      y: 250,
+      type: 'position',
+      name: '.DS_Store',
+    },
+    {
+      x: 1000,
+      y: 250,
+      type: 'position',
+      name: '.Trashes',
+    },
+    {
+      x: 1000,
+      y: 250,
+      type: 'position',
+      name: '.VolumeIcon.icns',
     }
   ];
 
