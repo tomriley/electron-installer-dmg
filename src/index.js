@@ -90,13 +90,13 @@ module.exports = async (immutableOpts) => {
 
   opts.contents = opts.contents || [
     {
-      x: 448,
+      x: 948,
       y: 344,
       type: 'link',
       path: '/Applications',
     },
     {
-      x: 192,
+      x: 992,
       y: 344,
       type: 'file',
       path: opts.appPath,
