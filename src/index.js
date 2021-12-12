@@ -90,17 +90,23 @@ module.exports = async (immutableOpts) => {
 
   opts.contents = opts.contents || [
     {
-      x: 948,
+      x: 448,
       y: 344,
       type: 'link',
       path: '/Applications',
     },
     {
-      x: 992,
+      x: 192,
       y: 344,
       type: 'file',
       path: opts.appPath,
     },
+    {
+      x: 1000,
+      y: 250,
+      type: 'position',
+      name: '.background',
+    }
   ];
 
   if (typeof opts.contents === 'function') {
