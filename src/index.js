@@ -105,25 +105,25 @@ module.exports = async (immutableOpts) => {
       x: 1000,
       y: 250,
       type: 'position',
-      name: '.background',
+      path: '.background',
     },
     {
       x: 1000,
       y: 250,
       type: 'position',
-      name: '.DS_Store',
+      path: '.DS_Store',
     },
     {
       x: 1000,
       y: 250,
       type: 'position',
-      name: '.Trashes',
+      path: '.Trashes',
     },
     {
       x: 1000,
       y: 250,
       type: 'position',
-      name: '.VolumeIcon.icns',
+      path: '.VolumeIcon.icns',
     }
   ];
 
